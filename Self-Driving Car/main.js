@@ -16,7 +16,7 @@ if (localStorage.getItem("bestBrain")) {
             localStorage.getItem("bestBrain")
         );
         if (i != 0){
-            NeuralNetwork.mutate(cars[i].brain, 0.2);
+            NeuralNetwork.mutate(cars[i].brain, 0.3);
         }
     }
 }
