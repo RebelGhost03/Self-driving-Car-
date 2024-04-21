@@ -69,6 +69,6 @@ function save(){
       JSON.stringify(bestCar.brain));
 }
 
-function discard(){
+function remove(){
    localStorage.removeItem("bestBrain");
 }
